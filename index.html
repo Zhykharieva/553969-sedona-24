@@ -7,7 +7,7 @@
 <body>
 <header class="main-header">
     <nav class="main-navigation">
-        <a class="main-header-logo"> <img src="img/logo.svg" width="100" height="50" alt="Седона"></a>
+        <a class="main-header-logo" href="index.html"> <img src="img/logo.svg" width="100" height="50" alt="Логотип сайта Седона"></a>
         <ul class="site-navigation">
             <li><a href="info.html">Информация</a></li>
             <li><a href="photo.html">Фото и видео</a></li>
@@ -18,8 +18,8 @@
 
 </header>
 <main>
-    <section class="greeting">
-        <img src="img/background-photo.jpg"  alt="sedonas-picture">
+    <section class="greeting"><h2 class="visually-hidden">Приглашение в город Седона</h2>
+        <img src="img/background-photo.jpg"  alt="Фотография Седоны">
         <p>Welcome</p>
         <p>— to the gorgeous —</p>
         <p>Sedona</p>
@@ -35,25 +35,25 @@
         <p>&#8212;№1&#8212;</p>
         <p>Седона&#8212;не аттракцион для туристов, там течёт своя жизнь
        </p>
-       <img src="img/town.jpg" alt="sedonas-picture">
+       <img src="img/town.jpg" alt="Фотография Седоны">
        <ul class="advantages-list">
           <li class="advantages-item">
-            <h3>Жилье</h3>
+            <h4>Жилье</h4>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="advantages-item">
-            <h3>Еда</h3>
+            <h4>Еда</h4>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="advantages-item">
-            <h3>Сувениры</h3>
+            <h4>Сувениры</h4>
             <p>Не только китайского, но и местного производства!</p>
           </li>
         </ul>
 
         </section>
                 <section>
-                  <img src="img/devil-bridge.jpg"  alt alt="devil's-bridge">
+                  <img src="img/devil-bridge.jpg"   alt="Мост дьявола">
           <h3>Там есть мост дьявола</h3>
           <p>Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
         <p>&#8212;№2&#8212;</p>
@@ -79,27 +79,47 @@
 
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
-        <p>Поиск гостиницы в Седоне</p>
-
-        <!--здесь будет pop-up-->
+        <a class="search-form" href="#.">
+          <p><h3>Поиск гостиницы в Седоне</h3></p>
+                    </a>
+        <form class="hotelsearch-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="search-item">
+            <label for="search-date-on">Дата заезда</label>
+            <input id="search-date-on" type="text" name="date" value="" placeholder="24 апреля 2017">
+          </p>
+          <p class="search-item">
+            <label for="search-date-off">Дата выезда</label>
+            <input id="search-date-off" type="text" name="date" value="" placeholder="4 июля 2017">
+          </p>
+          <p class="number-people">
+            <label for="adults">Взрослые</label>
+            <input id="adults" type="text" name="number" value="" placeholder="2">
+          </p>
+          <p class="number-people">
+            <label for="children">Дети</label>
+            <input id="children" type="text" name="number" value="" placeholder="0">
+          </p>
+          <button class="button" type="submit">Найти</button>
+        </form>
     </section>
-    <section class="map">
+    <section class="map"><h2 class="visually-hidden">Как добраться?</h2>
     <iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3A66efa8d8ef89bc972d2748a4832a728ec2f85310236ffca3b2953104466e3dbe&amp;source=constructor" width="560" height="400" frameborder="0"></iframe>
     </section>
 </main>
-<footer class="main-footer">
+<footer class="main-footer"> <h2 class="visually-hidden">Наши контакты в социальных сетях</h2>
     <p class="instagram"><a href="insta.html">#visitsedona</a></p>
     <div class="footer-social">
         <ul>
-            <li><a class="social-button" href="#" style="background: url(img/fb-background.png)"> <img src="img/twitter.svg" width="100" height="50" alt="Twitter"></a></li>
-            <li><a class="social-button" href="#"style="background: url(img/fb-background.png)"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg></a></li>
+            <li><a class="social-button" href="#" style="background: url(img/fb-background.png)"> <img src="img/twitter.svg" width="100" height="50" alt="Twitter"> <h3 class="visually-hidden">Twitter</h3>
+            </a></li>
+            <li><a class="social-button" href="#"style="background: url(img/fb-background.png)"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg><h3 class="visually-hidden">Facebook</h3></a></li>
             <li><a class="social-button" href="#" style="background: url(img/fb-background.png)"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             	 width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16" xml:space="preserve">
             <image overflow="visible" enable-background="new    " width="20" height="16" xlink:href="youtube.png" >
             </image>
             <path fill="#FFFFFF" d="M17,0H3C1.35,0,0,1.35,0,3v10c0,1.65,1.35,3,3,3h14c1.65,0,3-1.35,3-3V3C20,1.35,18.65,0,17,0z
             	 M6.027,11.998V4.002L15.014,8L6.027,11.998z"/>
-            </svg></a></li>
+            </svg><h3 class="visually-hidden">Youtube</h3></a></li>
         </ul>
     </div>
     <p class="copyright">
