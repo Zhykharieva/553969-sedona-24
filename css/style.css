@@ -685,7 +685,7 @@ input[type="checkbox"].visually-hidden {
   flex: 1;
   -webkit-box-flex: 1;
 
-  background-color: #ebebeb;
+  background-color: #f2f2f2;
 
   -ms-flex: 1;
 }
@@ -702,7 +702,7 @@ input[type="checkbox"].visually-hidden {
   -ms-flex-align: center;
   align-items: center;
 
-  background-color: #ebebeb;
+  background-color: #f2f2f2;
   border: 0;
   outline: 0;
 }
@@ -712,7 +712,7 @@ input[type="checkbox"].visually-hidden {
 .btn-minus:hover,
 .btn-minus:focus {
   color: #000000;
-  outline: 1px solid #a9a9a9;
+  background-color: #ebebeb;
 }
 
 .btn-minus:active,
@@ -734,7 +734,7 @@ input[type="checkbox"].visually-hidden {
   text-align: center;
   color: #000000;
 
-  background-color: #ebebeb;
+  background-color: #f2f2f2;
   border: none;
   }
 
